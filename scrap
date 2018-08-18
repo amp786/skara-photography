@@ -1,0 +1,103 @@
+    .coming-soon-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 100vh;
+        position: relative;
+    }
+
+
+     .row {
+        border: 1px red solid;
+    }
+
+    .coming-soon-container {
+      
+    }
+
+   .coming-soon-logo {
+       padding-top: 30px;
+       margin-left: auto;
+       margin-right: auto;
+       max-width: 30%;
+       display: block;
+   }
+
+   @media only screen and (max-width: 629px) {
+    .coming-soon-logo {
+            width: 50%;
+        }
+
+    .coming-soon-form button {
+        display:inherit;
+        margin-left: auto;
+        margin-right: auto;
+        }
+    }
+
+   .coming-soon-header {
+       text-align: center;
+       color: white;
+       font-family: 'Share';
+   }
+
+   .coming-soon-social {
+       text-align: center;
+       color: white;
+       padding: 0;
+       font-size: 40px;
+   }
+
+   .coming-soon-social li {
+       display: inline;
+   }
+
+   .coming-soon-text {
+       color: white;
+       text-align: center;
+       font-variant: small-caps;
+       padding: 10px 0;
+   }
+
+   .coming-soon-form-row {
+       margin-right: auto;
+       margin-left: auto;
+       padding: 15px;
+   }
+
+
+   .coming-soon-slogan {
+       padding-top: 80px;
+   }
+
+   .coming-soon-slogan h1 {
+        color: white;
+        position: relative;
+        text-align: center;
+        font-family: 'Unica One', cursive;
+        font-size: 30px;
+   }
+
+   .coming-soon-slogan h1 span {
+        background: grey;
+        padding: 0 15px;
+        position: relative;
+        z-index: 1;
+   }
+
+    .coming-soon-slogan h1:before {
+    background: #ddd;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+    .coming-soon-slogan h1:before {
+    left: 0;
+}
+   
+</style>

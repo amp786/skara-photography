@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <% include ../../partials/head.ejs %>
+    <% include ../../partials/scripts.ejs %>
+    <link href="https://fonts.googleapis.com/css?family=Share|Graduate|Unica+One" rel="stylesheet">
+</head>
+
+<body>
+    <div class="coming-soon-container">
+        <div class="coming-soon-logo-container">
+            <% include components/coming-soon-logo.ejs %>
+        </div>
+        <div class="coming-soon-header-container">
+            <% include components/coming-soon-header.ejs %>
+        </div>
+        <div class="coming-soon-text-container">
+            <% include components/coming-soon-text.ejs %>
+        </div>
+        <div class="coming-soon-form-container">
+            <% include components/coming-soon-form.ejs %>
+        </div>
+        <div class="coming-soon-social-container">
+            <% include components/coming-soon-social.ejs %> 
+        </div>
+        <div class="coming-soon-slogan-container">
+            <% include components/coming-soon-slogan.ejs %>      
+        </div>
+    </div>
+    </body>
+    </html>
+    
+    <style>
+
+        .coming-soon-logo-container {
+            width: 50%;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .coming-soon-logo {
+            display: block;
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            margin: auto;
+        }
+
+        .coming-soon-header-container {
+            text-align: center;
+        }
+
+        .coming-soon-text-container {
+            text-align: center;
+        }
+
+        .coming-soon-form-container {
+            text-align: center;
+            margin:auto;
+        }
+
+        .coming-soon-social-container {
+            margin: auto;
+        }
+
+        .coming-soon-social {
+            padding: 0;
+        }
+
+        .coming-soon-slogan-container {
+            margin: auto;
+        }
+
+        
+        /*backgroud gradient*/
+        body {
+            background: #000000;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+        }
+
+        .coming-soon-container {
+            display: flex;
+            justify-content: center;
+            flex-flow: column nowrap;
+        }
+
+        @media (min-width: 600px) {
+        .coming-soon-container {
+            margin-top: 75px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            align-content: center;
+            }
+        }
+
+        @media (min-width: 100px) {
+        .coming-soon-text-container {
+            padding-left: 50px;
+            padding-right: 50px;
+      }
+        }
+}
+
+
+        
+                
+    </style>
