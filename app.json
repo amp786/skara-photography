@@ -1,0 +1,7 @@
+{
+  "name": "SKara Photography",
+  "description": "Sarfaraaz Kara Photography Website",
+  "respository": "https://github.com/amp786/skara-photography",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+}
