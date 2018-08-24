@@ -8,6 +8,8 @@ app.set('view engine', 'ejs');
 var path = require('path');
 app.use (express.static('public'));
 
+app.use(express.favicon("public/images/favicon.ico")); 
+
 var credentials = {
     user: 'alimorteza.panju@gmail.com',
     pass: 'gufour123'
@@ -26,7 +28,7 @@ app.post('/submit', function (req, res) {
     });
     let mailOptions = {
         from: '"Ali Morteza Panju" <alimorteza.panju@gmail.com>', // sender address
-        to: 'alimorteza.panju@gmail.com', // list of receivers
+        to: 'sarfaraaz.kara@gmail.com' // list of receivers
         subject: 'New subscriber to SKara Photography!', // Subject line
         html: 'Hi Sarfaraaz, you have a new subscriber: ' + req.body.subscriber, // html body
     };
