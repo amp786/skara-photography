@@ -59,6 +59,6 @@ app.get('/coming-soon', routes.comingSoon);
 // notFound
 app.get('*', routes.notFound);
 
-app.listen(9000, function() {
+app.listen(process.env.PORT || 5000, function() {
     console.log('The magic happens on localhost 9000');
 });
